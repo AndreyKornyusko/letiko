@@ -29,6 +29,16 @@
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BP2MBPME4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6BP2MBPME4');
+    </script>
+
     <!-- Load ScrollTo -->
     <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
 
@@ -66,8 +76,9 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/38288850" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </head>
-<body> 
+<body>  
 <!--******************** Contact Section ********************-->
+<a class="anchor" id="contact-link"></a>
 <section id="contact">
 <a class="closeform" id="close_form">X</a>
 <div class="container">
@@ -142,7 +153,7 @@
         <li><a class="scroll-to" title="services" href="#services-link">Services</a></li>
         <li><a class="scroll-to" title="blog" href="#news-link">Blog</a></li>
         <li><a class="scroll-to" title="team" href="#team-link">Team</a></li>
-        <li><a  title="contact" href="#contact" id="contacts_toggle">Contact</a></li>
+        <li><a class="scroll-to" title="contact" href="#contact-link" id="contacts_toggle">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -159,7 +170,7 @@
 <header>
 <h1><b>Letiko</b>software creation done right</h1>
 </header>
-<video autoplay loop>
+<video autoplay loop muted>
         <source type="video/mp4" src="img/more.mp4"></source>
         <source type="video/ogg" src="img/more.ogv"></source>
 </video>
